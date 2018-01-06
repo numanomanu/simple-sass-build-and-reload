@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/TsuyoshiNumano/simple-sass-build-and-reload/issues"
   },
-  "homepage": "https://github.com/TsuyoshiNumano/simple-sass-build-and-reload#readme"
+  "homepage": "https://github.com/TsuyoshiNumano/simple-sass-build-and-reload#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.3",
+    "concurrently": "^3.5.1",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.7"
+  }
 }
