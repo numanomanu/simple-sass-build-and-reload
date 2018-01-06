@@ -1,0 +1,25 @@
+{
+  "name": "simple-sass-build-and-reload",
+  "version": "1.0.0",
+  "description": "boilerplate for simple sass build & browser auto reload when file change",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsuyoshiNumano/simple-sass-build-and-reload.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "browser-sync",
+    "npm"
+  ],
+  "author": "TsuyoshiNumano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TsuyoshiNumano/simple-sass-build-and-reload/issues"
+  },
+  "homepage": "https://github.com/TsuyoshiNumano/simple-sass-build-and-reload#readme"
+}
