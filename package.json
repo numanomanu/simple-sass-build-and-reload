@@ -4,7 +4,10 @@
   "description": "boilerplate for simple sass build & browser auto reload when file change",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "sync": "browser-sync start --server --files \"**/*\" ",
+    "dev": "concurrently --kill-others \"npm run watch-css\" \"npm run sync\""
   },
   "repository": {
     "type": "git",

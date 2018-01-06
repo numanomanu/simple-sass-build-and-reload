@@ -1,0 +1,9 @@
+$primary-color: green;
+
+p {
+  span {
+    &.test{
+      color: $primary-color;
+    }
+  }
+}
