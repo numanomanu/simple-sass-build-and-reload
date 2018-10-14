@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/TsuyoshiNumano/simple-sass-build-and-reload#readme",
   "devDependencies": {
-    "browser-sync": "^2.23.3",
-    "concurrently": "^3.5.1",
-    "node-sass": "^4.7.2",
-    "nodemon": "^1.14.7"
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.0.1",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4"
   }
 }
